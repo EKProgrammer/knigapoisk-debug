@@ -11,7 +11,7 @@ from PIL import Image
 from shutil import copy
 
 
-# поговорки
+# пословицы и поговорки
 from data.sayings import SAYINGS
 
 from data import db_session, users_resource, books_resource
