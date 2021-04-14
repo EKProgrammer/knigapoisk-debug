@@ -83,7 +83,7 @@ def search(q):
 
 @app.route('/book_information/<google_book_id>')
 def book_information(google_book_id):
-    pass
+    return '123456789'
 
 
 @app.route('/profile', methods=['GET', 'POST'])
